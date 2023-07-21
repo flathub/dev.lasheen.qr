@@ -13,7 +13,7 @@
   <developer_name>Lasheen</developer_name>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="1.0.0" date="2023-02-28"/>
+    <release version="1.0.1" date="2023-07-21"/>
   </releases>
   <supports>
     <control>pointing</control>
