@@ -26,8 +26,8 @@ modules:
       - 'install -Dm644 dev.lasheen.qr.svg /app/share/icons/hicolor/scalable/apps/dev.lasheen.qr.svg'
     sources:
       - type: archive
-        url: https://github.com/YoussefLasheen/qr/releases/download/v1.0.0/qr-Linux-Portable.tar.gz
-        sha256: 8d4bd10e5ff14fba70e2fefff09b1fbf23d11dd53bfe2430e3173764bed6658d
+        url: https://github.com/YoussefLasheen/qr/releases/download/v1.0.1/qr-Linux-Portable.tar.gz
+        sha256: 06ef7addf6f3f396f615bd18e30c9ece987bb8543cc8e097bf7589ac860d1f5f
       - type: file
         path: dev.lasheen.qr.desktop
       - type: file
