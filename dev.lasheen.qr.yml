@@ -27,7 +27,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/YoussefLasheen/qr/releases/download/v1.0.1/qr-Linux-Portable.tar.gz
-        sha256: 3840367d8fc4e355d7b3a36ed207ca545437525e8e54f2be3d9d59baf198e4e4
+        sha256: 06ef7addf6f3f396f615bd18e30c9ece987bb8543cc8e097bf7589ac860d1f5f
       - type: file
         path: dev.lasheen.qr.desktop
       - type: file
