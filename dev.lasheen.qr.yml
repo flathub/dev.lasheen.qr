@@ -26,7 +26,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/YoussefLasheen/qr/releases/download/v1.1.0/linux_build_x64.tar.gz
-        sha256: 54e126179b4ecbc751a6ce1c5a76534e4758250daa8b3a83397eaeeae550db56
+        sha256: b765cc0080856b999379d699ca1a1689efbab444bfd6a513100135029a638e7c
       - type: file
         path: dev.lasheen.qr.desktop
       - type: file
