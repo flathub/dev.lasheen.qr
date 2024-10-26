@@ -17,9 +17,9 @@ modules:
     build-commands:
       - 'mkdir -p /app/qr'
       - 'cp -r qr data lib /app/qr/'
-      - 'chmod +x /app/qr'
+      - 'chmod +x /app/qr/qr'
       - 'mkdir -p /app/bin'
-      - 'ln -s /app/qr /app/bin/qr'
+      - 'ln -s /app/qr/qr /app/bin/qr'
       - 'install -Dm644 dev.lasheen.qr.desktop /app/share/applications/dev.lasheen.qr.desktop'
       - 'install -Dm644 dev.lasheen.qr.metainfo.xml /app/share/appdata/dev.lasheen.qr.metainfo.xml'
       - 'install -Dm644 dev.lasheen.qr.svg /app/share/icons/hicolor/scalable/apps/dev.lasheen.qr.svg'
