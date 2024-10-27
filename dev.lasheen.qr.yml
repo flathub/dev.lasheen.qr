@@ -1,6 +1,6 @@
 app-id: dev.lasheen.qr
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: qr
 separate-locales: false
@@ -9,7 +9,6 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --device=dri
-  - --socket=pulseaudio
 modules:
   - name: qr
     buildsystem: simple
@@ -26,8 +25,8 @@ modules:
       - 'install -Dm644 dev.lasheen.qr.svg /app/share/icons/hicolor/scalable/apps/dev.lasheen.qr.svg'
     sources:
       - type: archive
-        url: https://github.com/YoussefLasheen/qr/releases/download/v1.0.1/qr-Linux-Portable.tar.gz
-        sha256: 06ef7addf6f3f396f615bd18e30c9ece987bb8543cc8e097bf7589ac860d1f5f
+        url: https://github.com/YoussefLasheen/qr/releases/download/v1.1.0/linux_build_x64.tar.gz
+        sha256: b765cc0080856b999379d699ca1a1689efbab444bfd6a513100135029a638e7c
       - type: file
         path: dev.lasheen.qr.desktop
       - type: file
