@@ -1,42 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-  <id>dev.lasheen.qr</id>
-  
-  <name>QR Scanner</name>
-  <summary>A QR code scanner/generator</summary>
-  
-  <metadata_license>MIT</metadata_license>
-  <project_license>MIT</project_license>
-
-  <url type="homepage">https://github.com/YoussefLasheen/qr</url>
-  <url type="bugtracker">https://github.com/YoussefLasheen/qr/issues</url>
-  <developer_name>Lasheen</developer_name>
-  <content_rating type="oars-1.1" />
-  <releases>
-    <release version="1.0.1" date="2023-07-21"/>
-  </releases>
-  <supports>
-    <control>pointing</control>
-    <control>keyboard</control>
-    <control>touch</control>
-  </supports>
-  
-  <description>
-    <p>
-      An ad-free multi-platform QR code scanner and generator
-    </p>
-  </description>
-  
-  <launchable type="desktop-id">dev.lasheen.qr.desktop</launchable>
-  <screenshots>
-    <screenshot type="default">
-      <image>https://raw.githubusercontent.com/YoussefLasheen/qr/master/screenshots/screenshot-desktop-1.png</image>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/YoussefLasheen/qr/master/screenshots/screenshot-desktop-2.png</image>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/YoussefLasheen/qr/master/screenshots/screenshot-desktop-3.png</image>
-    </screenshot>
-  </screenshots>
+    <id>dev.lasheen.qr</id>
+    <metadata_license>MIT</metadata_license>
+    <project_license>MIT</project_license>
+    <name>QR Scanner</name>
+    <summary>A QR code scanner/generator</summary>
+    <developer id="dev.lasheen">
+        <name>Lasheen</name>
+    </developer>
+    <url type="homepage">https://github.com/YoussefLasheen/qr</url>
+    <url type="bugtracker">https://github.com/YoussefLasheen/qr/issues</url>
+    <url type="vcs-browser">https://github.com/YoussefLasheen/qr</url>
+    <content_rating type="oars-1.1" />
+    <launchable type="desktop-id">dev.lasheen.qr.desktop</launchable>
+    <supports>
+        <control>pointing</control>
+        <control>keyboard</control>
+        <control>touch</control>
+    </supports>
+    <description>
+        <p>
+          An ad-free multi-platform QR code scanner and generator
+        </p>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/YoussefLasheen/qr/master/screenshots/screenshot-desktop-1.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/YoussefLasheen/qr/master/screenshots/screenshot-desktop-2.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/YoussefLasheen/qr/master/screenshots/screenshot-desktop-3.png</image>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="1.0.1" date="2023-07-21" />
+    </releases>
 </component>
