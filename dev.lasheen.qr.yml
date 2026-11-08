@@ -1,6 +1,6 @@
 app-id: dev.lasheen.qr
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: qr
 separate-locales: false
@@ -15,14 +15,14 @@ modules:
     only-arches:
       - x86_64
     build-commands:
-      - 'mkdir -p /app/qr'
-      - 'cp -r qr data lib /app/qr/'
-      - 'chmod +x /app/qr/qr'
-      - 'mkdir -p /app/bin'
-      - 'ln -s /app/qr/qr /app/bin/qr'
-      - 'install -Dm644 dev.lasheen.qr.desktop /app/share/applications/dev.lasheen.qr.desktop'
-      - 'install -Dm644 dev.lasheen.qr.metainfo.xml /app/share/appdata/dev.lasheen.qr.metainfo.xml'
-      - 'install -Dm644 dev.lasheen.qr.svg /app/share/icons/hicolor/scalable/apps/dev.lasheen.qr.svg'
+      - mkdir -p /app/qr
+      - cp -r qr data lib /app/qr/
+      - chmod +x /app/qr/qr
+      - mkdir -p /app/bin
+      - ln -s /app/qr/qr /app/bin/qr
+      - install -Dm644 dev.lasheen.qr.desktop -t /app/share/applications/
+      - install -Dm644 dev.lasheen.qr.metainfo.xml -t /app/share/metainfo/
+      - install -Dm644 dev.lasheen.qr.svg -t /app/share/icons/hicolor/scalable/apps/
     sources:
       - type: archive
         url: https://github.com/YoussefLasheen/qr/releases/download/v1.1.0/linux_build_x64.tar.gz
@@ -33,3 +33,4 @@ modules:
         path: dev.lasheen.qr.metainfo.xml
       - type: file
         path: dev.lasheen.qr.svg
+
